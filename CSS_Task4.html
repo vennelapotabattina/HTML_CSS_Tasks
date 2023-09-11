@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task4</title>
+    <style>
+      h2 {
+        margin-top: 35px;
+        margin-left: 100px;
+      }
+      p {
+        margin-top: 25px;
+        margin-left: 100px;
+      }
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+
+      .container {
+        position: fixed;
+        z-index: 999;
+        top: 5%;
+        left: 0;
+        height: auto;
+        width: auto;
+        display: flex;
+      }
+      .home,
+      .about,
+      .content,
+      .contact {
+        text-align: center;
+        height: 50px;
+        width: 130px;
+        position: absolute;
+        left: -80px;
+        top: 0%;
+        background-color: rgb(37, 194, 71);
+        border-radius: 5px;
+        line-height: 40px;
+        transition: left 0.5s;
+        padding: 2.5px;
+      }
+      .container > :hover {
+        left: 0px;
+      }
+      .about {
+        background-color: rgb(41, 188, 236);
+        top: 60px;
+      }
+      .content {
+        background-color: rgb(235, 22, 22);
+        top: 120px;
+      }
+      .contact {
+        background-color: rgb(88, 85, 85);
+        top: 180px;
+      }
+      a {
+        font-size: 22px;
+        letter-spacing: 1px;
+        text-decoration: none;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <div class="container">
+        <div class="home">
+          <a href="Welcome.html">.</a>
+        </div>
+        <div class="about">
+          <a href="Welcome.html">.</a>
+        </div>
+        <div class="content">
+          <a href="Welcome.html">.</a>
+        </div>
+        <div class="contact">
+          <a href="Welcome.html">.</a>
+        </div>
+      </div>
+      <h2>Hovarable Sidenav Buttons</h2>
+      <p>Hover over the button in the left side navigation to open them.</p>
+    </div>
+  </body>
+</html>

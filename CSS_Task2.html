@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 2</title>
+    <style>
+      #h4Horizontal {
+        padding-left: 100px;
+      }
+      .navbarHorizontal li {
+        float: left;
+        list-style: none;
+        padding: 10px;
+        border-right: 1px solid blue;
+        background-color: rgb(224, 223, 220);
+      }
+      .navbarHorizontal ul {
+        overflow: hidden;
+        /* float: left; */
+      }
+      .navbarHorizontal li a {
+        padding: 3px 3px;
+        text-decoration: none;
+        color: blue;
+      }
+      .navbarHorizontal li:hover a {
+        color: white;
+      }
+      .navbarHorizontal li:hover {
+        background-color: rgb(170, 168, 165);
+      }
+      .content {
+        /* width: 30%; */
+        border: 1px solid black;
+      }
+      /* #h4Vertical {
+        padding-left: 80px;
+      } */
+      .navbarVertical li a {
+        padding: 3px 3px;
+        text-decoration: none;
+        color: blue;
+      }
+      .navbarVertical {
+        padding: 5px;
+      }
+      .navbarVertical li {
+        list-style: none;
+        padding-bottom: 20px;
+        background-color: rgb(148, 219, 231);
+        color: white;
+      }
+      .navbarVertical li:hover a {
+        color: white;
+      }
+      .navbarVertical li:hover {
+        background-color: rgb(226, 160, 18);
+      }
+      .VerticalContent {
+        /* width: 20%; */
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <div style="display: flex; justify-content: space-evenly">
+      <div>
+        <h4 id="h4Horizontal">Horizontal Navigation Bar</h4>
+
+        <header>
+          <div class="content">
+            <nav class="navbarHorizontal">
+              <ul>
+                <li><a href="Welcome.html">Home</a></li>
+                <li><a href="Welcome.html">Java</a></li>
+
+                <li><a href="Welcome.html">HTML</a></li>
+
+                <li><a href="Welcome.html">CSS</a></li>
+
+                <li>
+                  <a style="padding: 20px"></a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </header>
+      </div>
+
+      <!-- Vertical nav bar -->
+      <div>
+        <h4 id="h4Vertical">Vertical Navigation Bar</h4>
+        <header>
+          <div class="VerticalContent">
+            <nav class="navbarVertical">
+              <li id="Vertical"><a href="Welcome.html">Home</a></li>
+              <li id="Vertical"><a href="Welcome.html">Java</a></li>
+              <li id="Vertical"><a href="Welcome.html">HTML</a></li>
+              <li id="Vertical"><a href="Welcome.html">CSS</a></li>
+              <li id="Vertical"><a href="Welcome.html">Bootstrap</a></li>
+            </nav>
+          </div>
+        </header>
+      </div>
+    </div>
+  </body>
+</html>

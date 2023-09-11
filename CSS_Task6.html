@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task6</title>
+    <style>
+      img {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 100px;
+        display: block;
+      }
+      .username {
+        width: 500px;
+        padding: 7px;
+      }
+      .password {
+        width: 500px;
+        padding: 7px;
+      }
+      #login {
+        width: 520px;
+        background: rgb(14, 173, 14);
+        padding: 7px;
+      }
+      #cancel {
+        background-color: red;
+        height: 30px;
+      }
+      #forget {
+        text-align: end;
+      }
+      tr {
+        background-color: rgb(235, 235, 227);
+        width: 520px;
+        padding: 7px;
+      }
+      .colorGrey {
+        background-color: rgb(235, 235, 227);
+        display: flex;
+        height: 50px;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .content {
+        display: flex;
+        justify-content: space-around;
+      }
+    </style>
+  </head>
+  <body>
+    <img src="img.jpg" />
+    <div class="content">
+      <div>
+        <form>
+          <label for="usename"><b>Username</b></label
+          ><br />
+          <input
+            placeholder="Enter username"
+            type="text"
+            id="username"
+            class="username"
+          /><br /><br />
+          <label for="password"><b>Password</b></label
+          ><br />
+          <input
+            placeholder="Enter Password"
+            type="password"
+            id="password"
+            class="password"
+          /><br /><br />
+          <button id="login">Login</button><br /><br />
+          <input type="checkbox" id="cbox" class="cbox" />Remember me
+        </form>
+        <br />
+        <div class="colorGrey">
+          <button id="cancel">Cancel</button>
+          <span style="text-align: right">Forget <u>password?</u></span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
